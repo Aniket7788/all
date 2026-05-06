@@ -1,0 +1,13 @@
+sudo apt install openssh-server
+
+sudo apt install net-tools
+
+ifconfig
+ip addr show
+
+sudo systemctl status ssh
+
+sudo systemctl start ssh
+
+sudo systemctl enable ssh
+
